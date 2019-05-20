@@ -1,6 +1,6 @@
 # gatling-idea
-Run gatling simulation script in IntelliJ IDEA
 
+Run gatling simulation script in IntelliJ IDEA with Scala plugin
 
 ## Gatling's SBT plugin demo
 
@@ -10,7 +10,7 @@ Run gatling simulation script in IntelliJ IDEA
 
 ### Run a single simulation
 
-> sbt gatling:testOnly computerdatabase.BasicSimulation
+> sbt gatling:testOnly simulations.BasicSimulation
 
 ### List all tasks
 
